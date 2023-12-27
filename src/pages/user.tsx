@@ -1,14 +1,17 @@
-import UserStyled from "./users_block/user.styled"
+import UserStyled from "@/componets/userStyled/user.styled";
+
 
 // const NewUser: FC<INewUser> = ({ isRegistration }) => {
-    const User = () => {
+  const User = () => {
 
     return(
+        <>
         <UserStyled>
-<div>
+<div className="title">
 Registration block
         </div>
         </UserStyled>
+        </>
     )
     }
 export default User;
